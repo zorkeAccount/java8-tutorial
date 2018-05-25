@@ -25,9 +25,9 @@ public class Interface1 {
             }
         };
 
-        formula1.calculate(100);     // 100.0
-        formula1.sqrt(-23);          // 0.0
-        Formula.positive(-4);        // 0.0
+        System.out.println("Formula: calculate=" + formula1.calculate(100));     // 100.0
+        System.out.println("Formula: sqrt=" + formula1.sqrt(-23));          // 0.0
+        System.out.println("Formula: positive=" + Formula.positive(-4));        // 0.0
 
 //        Formula formula2 = (a) -> sqrt( a * 100);
     }
